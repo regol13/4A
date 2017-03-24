@@ -115,7 +115,7 @@ var self = window;
 	function onResize() {
 
 		canvas.width = window.innerWidth;
-		canvas.height = window.innerHeight- ((window.innerWidth/10) * 2);
+		canvas.height = window.innerHeight;
 
 		// Reset the text particles, and align again on the center of screen
 		nextText = [];
